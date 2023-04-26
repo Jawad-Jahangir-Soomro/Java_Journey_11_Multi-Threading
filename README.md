@@ -47,6 +47,8 @@ During its lifecycle, a thread can transition from one state to another dependin
 
 For example, a thread in the running state can move to the blocked state if it tries to acquire a lock on an object that is already held by another thread. Similarly, a thread in the waiting state can move to the runnable state when the condition it is waiting for becomes true.
 
+![thread-life-cycle](https://user-images.githubusercontent.com/123876118/234464770-969039f2-456b-4ad5-ab2c-4d3e70582f10.png)
+
 ## What is MultiThreading
 
 Multithreading is a concept in which multiple threads of execution coexist within a single process. In other words, it allows an application to perform multiple tasks concurrently. Each thread of execution runs independently and can execute a different part of the code simultaneously.
